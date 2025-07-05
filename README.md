@@ -14,29 +14,36 @@ Dataset Columns Explanation
 8. Stock Splits - Number of stock splits.
 
 🔧 Steps Involved
-1.Import Libraries
+
+1.Import Libraries:
+
   Load essential Python libraries like pandas, matplotlib, and sklearn.
 
-2.Load the Dataset
+2.Load the Dataset:
+
   Read historical stock data (CSV or API) into a DataFrame using pandas.
   > Explore & Clean the Data
   > Check for missing values
   > Convert date columns to datetime format
   > Sort data by date
 
-3.Visualize Raw Stock Prices
+3.Visualize Raw Stock Prices:
+
   Plot the original closing prices using matplotlib to observe trends.
 
-4.Normalize Prices
+4.Normalize Prices:
+
   Use StandardScaler to standardize stock price values for better comparison.
 
 5.Plot Normalized Data
   Create time-series plots of normalized values to compare multiple stocks fairly.
 
-6.Draw Insights
+6.Draw Insights:
+
   Analyze trends, spikes, or patterns that may indicate market behavior.
 
-7.Export or Save Data (Optional)
+7.Export or Save Data (Optional):
+
   Save processed or transformed datasets for future modeling or sharing.
 
 Tools and Libraries used
